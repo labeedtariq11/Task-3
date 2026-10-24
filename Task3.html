@@ -1,0 +1,112 @@
+<html>
+<head>
+<title> Hotel Reservation Form</title>
+</head>
+<style>
+.container {
+background-color: lightgray;
+padding: 20px
+width: 250%;
+margin: 30px;
+        }
+.title {
+color: red;
+text-align: center;
+font-weight: bold;
+font-size: 22px;
+}
+table {
+width: 100%;
+border-collapse: collapse;
+background-color: Green;
+       
+td {
+border: 1px solid black;
+padding: 8px;
+}
+.label-text {
+font-weight: bold;
+text-align: right;
+width: 35%;
+}
+</style>
+</head>
+
+
+<div class="container">
+<p class="title">Continental Hotel Reservation Form</p>
+   
+<form>
+<table>
+<tr>
+<td class="label-text">Name</td>
+<td><input type="text" placeholder="Enter your name"></td>
+</tr>
+           
+<tr>
+<td class="label-text">eMail</td>
+<td><input type="text" value="info@continental.pk"></td>
+</tr>
+           
+<tr>
+<td class="label-text">Mobile No</td>
+<td><input type="text" placeholder="Enter your cell number"></td>
+</tr>
+           
+     
+<tr>
+<td class="label-text">Arrival Time</td>
+<td><input type="time" placeholder="Enter your arrival time"></td>
+ </tr>
+           
+<tr>
+<td class="label-text">Departure</td>
+<td>
+<input type="date">
+<input type="time">
+ </td>
+</tr>
+           
+<tr>
+  <td class="label-text">Room Type</td>
+<td>
+<input type="radio" name="room"> Single
+<input type="radio" name="room"> Double
+<br>
+<input type="radio" name="room"> Presidential Suite
+</td>
+</tr>
+           
+<tr>
+<td class="label-text">Preferences</td>
+<td>
+<input type="checkbox"> Non-Smoking <br>
+<input type="checkbox"> Internet <br>
+<input type="checkbox"> Firm Mattress
+</td>
+</tr>
+<tr>
+<td class="label-text">Mode of Payment</td>
+<td>
+<input type="checkbox"> Cash
+<input type="checkbox"> Check
+<br>
+<input type="checkbox"> Credit Card
+<select>
+<option>Select Card</option>
+<option>HBL</option>
+<option>Bank Al Falah</option>
+<option>Meezan</option>
+</select>
+</td>
+</tr>
+           
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Send Data"
+</td>
+</tr>
+</table>
+</form>
+</div>
+</html>
